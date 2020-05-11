@@ -35,6 +35,13 @@ _______________________________________ */
     display: flex;
     flex-direction: column-reverse;
 }
+#testimonials .carousel blockquote p:before{
+    content: '\201C';
+    position: relative;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2C2526;
+}
 #testimonials .slick-dots{
     text-align: left;
     padding-left: 3em;
