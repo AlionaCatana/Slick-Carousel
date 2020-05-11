@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    background-color: #6A6552;
+    color: #2C2526;
+}
+/* ___________Palette____________
+#C6C6C8 #2C2526 #5E443C #71727E #6A6552
+_______________________________________ */
+
+#testimonials{
+    display: flex;
+    justify-content: center;
+    background-color: #C6C6C8;
+}
+
+#testimonials .container{
+    width: 87vw;
+    display: flex;
+    align-items: center;
+}
+
+#testimonials .container .col{
+    width: 50%;
+
+}
+#testimonials .container img{
+    width: 100%;
+    padding: 1em 0;
+    position: relative;
+    right: -1em;
+}
+#testimonials .carousel blockquote {
+    display: flex;
+    flex-direction: column-reverse;
+}
+#testimonials .slick-dots{
+    text-align: left;
+    padding-left: 3em;
+}
+
+#testimonials .slick-dots button::before{
+    font-size: 8px;
+    color: #2C2526;
+}
+
+
+
+
+@media (max-width:1000px){
+    #testimonials .container{
+        flex-direction: column;
+    }
+    #testimonials .container .col{
+        width: 100%;
+    }
+}
